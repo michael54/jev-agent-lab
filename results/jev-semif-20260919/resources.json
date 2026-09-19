@@ -1,0 +1,12 @@
+{
+  "pod_id": "mhngiedmjky8hx",
+  "status": "EXITED",
+  "region": "US-NE-1",
+  "started_at": "2026-09-19T04:01:12.956Z",
+  "stopped_confirmed_at": "2026-09-19T04:06:09.348Z",
+  "seconds_upper_bound": 296.392,
+  "gpu_usd_hour": 3.49,
+  "estimated_gpu_usd": 0.2873355777777778,
+  "jev_input_tokens_including_warmup": 57944,
+  "estimated_jev_usd": 0.002433648
+}

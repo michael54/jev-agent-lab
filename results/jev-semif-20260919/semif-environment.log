@@ -1,0 +1,6 @@
+name, driver_version, memory.total [MiB]
+NVIDIA H100 80GB HBM3, 580.126.09, 81559 MiB
+e4afaff3ec59576e3e7d0dcbc6e4ec8e295577ca2f0c2895e0091a9f5b6740e2  /workspace/jev/server.py
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.

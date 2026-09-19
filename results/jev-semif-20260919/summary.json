@@ -1,0 +1,241 @@
+{
+  "manifest": {
+    "created_at": "2026-09-19T04:04:53.422611+00:00",
+    "dataset_sha256": "9df786bee05121ff1ed168ad5530b67c4a47d87a43e6869f38c30ac5c735169b",
+    "seed": 19092026,
+    "semif_url": "https://mhngiedmjky8hx-8000.proxy.runpod.net",
+    "jev_model": "jev-1.13.0",
+    "rounds": 2,
+    "method": "Same semantic state/question/options, native API adapters. Persistent HTTPS per provider. Randomized paired provider order, case order and option order each round. No retries. First calls and three warmups per provider excluded. All raw outcomes saved immediately.",
+    "reference": "Current GPT-6 assistant authored cases and reference labels before any scored model call; not an independent human benchmark or timed GPT-6 API evaluation."
+  },
+  "providers": {
+    "jev": {
+      "requests": 108,
+      "errors": 0,
+      "status_counts": {
+        "200": 108
+      },
+      "primary_unique_base": {
+        "correct": 48,
+        "total": 48,
+        "accuracy": 1.0,
+        "wilson95": [
+          0.9258973488472576,
+          0.9999999999999999
+        ]
+      },
+      "by_category": {
+        "evidence": {
+          "correct": 8,
+          "total": 8
+        },
+        "intent": {
+          "correct": 8,
+          "total": 8
+        },
+        "policy": {
+          "correct": 8,
+          "total": 8
+        },
+        "reasoning": {
+          "correct": 8,
+          "total": 8
+        },
+        "untrusted": {
+          "correct": 8,
+          "total": 8
+        },
+        "workflow": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "by_language": {
+        "en": {
+          "correct": 24,
+          "total": 24
+        },
+        "zh": {
+          "correct": 24,
+          "total": 24
+        }
+      },
+      "latency": {
+        "base": {
+          "n": 96,
+          "p50_ms": 143.41822899999988,
+          "p95_ms": 277.04862500000263
+        },
+        "long": {
+          "n": 12,
+          "p50_ms": 147.96450050000055,
+          "p95_ms": 241.2933340000052
+        }
+      },
+      "all_scored_correct": 108,
+      "disagreements": [],
+      "round_inconsistent_cases": [],
+      "mean_brier_primary": 0.0017416666666666672,
+      "high_probability_errors_primary": 0,
+      "model_ids": [
+        "jev-1.13.0"
+      ],
+      "input_tokens_including_warmup": 57944
+    },
+    "semif": {
+      "requests": 108,
+      "errors": 0,
+      "status_counts": {
+        "200": 108
+      },
+      "primary_unique_base": {
+        "correct": 45,
+        "total": 48,
+        "accuracy": 0.9375,
+        "wilson95": [
+          0.8316430233725778,
+          0.9785171568687727
+        ]
+      },
+      "by_category": {
+        "evidence": {
+          "correct": 8,
+          "total": 8
+        },
+        "intent": {
+          "correct": 8,
+          "total": 8
+        },
+        "policy": {
+          "correct": 7,
+          "total": 8
+        },
+        "reasoning": {
+          "correct": 6,
+          "total": 8
+        },
+        "untrusted": {
+          "correct": 8,
+          "total": 8
+        },
+        "workflow": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "by_language": {
+        "en": {
+          "correct": 22,
+          "total": 24
+        },
+        "zh": {
+          "correct": 23,
+          "total": 24
+        }
+      },
+      "latency": {
+        "base": {
+          "n": 96,
+          "p50_ms": 119.6480000000002,
+          "p95_ms": 262.98612500000115
+        },
+        "base_forward": {
+          "n": 96,
+          "p50_ms": 47.203656286001205,
+          "p95_ms": 59.680722653865814
+        },
+        "long": {
+          "n": 12,
+          "p50_ms": 185.59418749999867,
+          "p95_ms": 212.34054199999974
+        },
+        "long_forward": {
+          "n": 12,
+          "p50_ms": 107.28096403181553,
+          "p95_ms": 124.86791610717773
+        }
+      },
+      "all_scored_correct": 99,
+      "disagreements": [
+        {
+          "case_id": "policy04",
+          "round": 0,
+          "gold": "urgent",
+          "choice": "normal",
+          "top_probability": 0.5434056116997429
+        },
+        {
+          "case_id": "reasoning08",
+          "round": 0,
+          "gold": "b",
+          "choice": "c",
+          "top_probability": 0.4240883640817982
+        },
+        {
+          "case_id": "reasoning04",
+          "round": 0,
+          "gold": "fourteen",
+          "choice": "sixteen",
+          "top_probability": 0.7893977985726682
+        },
+        {
+          "case_id": "reasoning07_long",
+          "round": 0,
+          "gold": "ten",
+          "choice": "five",
+          "top_probability": 0.4955813506329936
+        },
+        {
+          "case_id": "reasoning06",
+          "round": 1,
+          "gold": "b",
+          "choice": "a",
+          "top_probability": 0.861128885209446
+        },
+        {
+          "case_id": "reasoning07_long",
+          "round": 1,
+          "gold": "ten",
+          "choice": "five",
+          "top_probability": 0.7448439323523404
+        },
+        {
+          "case_id": "policy04",
+          "round": 1,
+          "gold": "urgent",
+          "choice": "normal",
+          "top_probability": 0.6442479948405652
+        },
+        {
+          "case_id": "reasoning07",
+          "round": 1,
+          "gold": "ten",
+          "choice": "five",
+          "top_probability": 0.8490124844101167
+        },
+        {
+          "case_id": "reasoning04",
+          "round": 1,
+          "gold": "fourteen",
+          "choice": "sixteen",
+          "top_probability": 0.6196655721747188
+        }
+      ],
+      "round_inconsistent_cases": [
+        "reasoning06",
+        "reasoning07",
+        "reasoning08"
+      ],
+      "mean_brier_primary": 0.07486836897360098,
+      "high_probability_errors_primary": 0,
+      "model_ids": [
+        "{'source': 'Qwen/Qwen3.5-4B', 'revision': '851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a', 'dtype': 'bfloat16', 'torch_version': '2.10.0+cu128', 'transformers_version': '5.17.0'}"
+      ]
+    }
+  },
+  "paired_primary": {
+    "both_correct": 45,
+    "jev_only": 3
+  }
+}

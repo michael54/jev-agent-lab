@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-09-19T04:04:53.422611+00:00",
+  "dataset_sha256": "9df786bee05121ff1ed168ad5530b67c4a47d87a43e6869f38c30ac5c735169b",
+  "seed": 19092026,
+  "semif_url": "https://mhngiedmjky8hx-8000.proxy.runpod.net",
+  "jev_model": "jev-1.13.0",
+  "rounds": 2,
+  "method": "Same semantic state/question/options, native API adapters. Persistent HTTPS per provider. Randomized paired provider order, case order and option order each round. No retries. First calls and three warmups per provider excluded. All raw outcomes saved immediately.",
+  "reference": "Current GPT-6 assistant authored cases and reference labels before any scored model call; not an independent human benchmark or timed GPT-6 API evaluation."
+}

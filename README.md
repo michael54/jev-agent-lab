@@ -141,3 +141,12 @@ Median forward time for 116 / 676 / 2496 input tokens was 54 / 84 / 289 ms on
 4090 versus 46 / 55 / 148 ms on H100. Network regions and test times differ.
 The reference implementation still lacks optimized recurrent kernels; these
 measurements do not represent fully optimized GPU serving performance.
+
+## Official Jev versus H100 SemIf
+
+[Paired quality and latency report](results/jev-semif-20260919/report.md):
+48 pre-labeled bilingual agent cases plus 6 long-context variants, two shuffled
+rounds, 108 scored calls per provider. First-round reference agreement was
+48/48 for Jev 1.13.0 and 45/48 for SemIf. These are authored GPT-6 reference
+labels, not an independently validated benchmark. Raw requests, labels,
+methodology and limits are included. The H100 evaluation Pod is stopped.
