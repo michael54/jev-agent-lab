@@ -1,0 +1,1811 @@
+{
+  "timestamp": "2026-09-19T00:58:27.588856+00:00",
+  "url": "https://t97hrors0wpvpb-8000.proxy.runpod.net",
+  "first_inference": {
+    "status": 200,
+    "http_seconds": 1.606053333,
+    "forward_seconds": 1.3153942003846169,
+    "total_seconds": 1.4094271645881236,
+    "input_tokens": 116,
+    "choice": "weather"
+  },
+  "warmup": [
+    {
+      "status": 200,
+      "http_seconds": 0.24329737500000004,
+      "forward_seconds": 0.10112492134794593,
+      "total_seconds": 0.10451085167005658,
+      "input_tokens": 116,
+      "choice": "weather"
+    },
+    {
+      "status": 200,
+      "http_seconds": 0.17333679200000018,
+      "forward_seconds": 0.09429832734167576,
+      "total_seconds": 0.0967279733158648,
+      "input_tokens": 116,
+      "choice": "weather"
+    },
+    {
+      "status": 200,
+      "http_seconds": 0.16993520800000006,
+      "forward_seconds": 0.08663053903728724,
+      "total_seconds": 0.08936561597511172,
+      "input_tokens": 116,
+      "choice": "weather"
+    },
+    {
+      "status": 200,
+      "http_seconds": 0.18120933299999997,
+      "forward_seconds": 0.09824710199609399,
+      "total_seconds": 0.10083501832559705,
+      "input_tokens": 116,
+      "choice": "weather"
+    },
+    {
+      "status": 200,
+      "http_seconds": 0.1321295,
+      "forward_seconds": 0.05244204169139266,
+      "total_seconds": 0.05439477367326617,
+      "input_tokens": 116,
+      "choice": "weather"
+    }
+  ],
+  "notes": "Nearest-rank percentiles of successful requests only. No retries. Concurrency uses synchronized bursts. Synthetic latency workload, not quality evaluation.",
+  "groups": [
+    {
+      "summary": {
+        "name": "short_keepalive",
+        "count": 50,
+        "concurrency": 1,
+        "status_counts": {
+          "200": 50
+        },
+        "elapsed_seconds": 8.301255541,
+        "successful_requests_per_second": 6.023185258308144,
+        "input_tokens": [
+          116
+        ],
+        "choices": {
+          "weather": 50
+        },
+        "http_seconds": {
+          "p50": 0.13970008399999934,
+          "p95": 0.26225524999999994,
+          "max": 0.5634729580000002
+        },
+        "forward_seconds": {
+          "p50": 0.05380460014566779,
+          "p95": 0.09593913797289133,
+          "max": 0.10015939408913255
+        },
+        "total_seconds": {
+          "p50": 0.055784232914447784,
+          "p95": 0.09849165380001068,
+          "max": 0.10237501794472337
+        }
+      },
+      "samples": [
+        {
+          "status": 200,
+          "http_seconds": 0.15507441600000016,
+          "forward_seconds": 0.07815832505002618,
+          "total_seconds": 0.08031332911923528,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13018120799999977,
+          "forward_seconds": 0.052551303058862686,
+          "total_seconds": 0.05386367114260793,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14943462500000004,
+          "forward_seconds": 0.06855709524825215,
+          "total_seconds": 0.07059224741533399,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1363528749999996,
+          "forward_seconds": 0.052963545080274343,
+          "total_seconds": 0.05506656877696514,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.12977362500000034,
+          "forward_seconds": 0.0528177754022181,
+          "total_seconds": 0.05469461716711521,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.21614591699999997,
+          "forward_seconds": 0.07623905269429088,
+          "total_seconds": 0.07817424507811666,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17532241599999976,
+          "forward_seconds": 0.10015939408913255,
+          "total_seconds": 0.10237501794472337,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1529492910000001,
+          "forward_seconds": 0.07324560405686498,
+          "total_seconds": 0.07543304795399308,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.19509029199999972,
+          "forward_seconds": 0.05425428319722414,
+          "total_seconds": 0.05595565401017666,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.12959229199999944,
+          "forward_seconds": 0.05287191504612565,
+          "total_seconds": 0.055167578626424074,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13359387499999986,
+          "forward_seconds": 0.052550433203577995,
+          "total_seconds": 0.0544994049705565,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.15337083299999943,
+          "forward_seconds": 0.07368898577988148,
+          "total_seconds": 0.07636177306994796,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.12983566599999996,
+          "forward_seconds": 0.05295415502041578,
+          "total_seconds": 0.05494227772578597,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17590941700000062,
+          "forward_seconds": 0.09679600317031145,
+          "total_seconds": 0.09890977572649717,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14103941599999992,
+          "forward_seconds": 0.05969742825254798,
+          "total_seconds": 0.062236223835498095,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.18476070799999977,
+          "forward_seconds": 0.059879378881305456,
+          "total_seconds": 0.0616607298143208,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13022262499999915,
+          "forward_seconds": 0.05380460014566779,
+          "total_seconds": 0.05544118117541075,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.15327020900000043,
+          "forward_seconds": 0.07612353097647429,
+          "total_seconds": 0.07773322286084294,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13224716700000005,
+          "forward_seconds": 0.05282637383788824,
+          "total_seconds": 0.05501375813037157,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.12946566700000073,
+          "forward_seconds": 0.05290966480970383,
+          "total_seconds": 0.05486196791753173,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13307995799999972,
+          "forward_seconds": 0.0552347800694406,
+          "total_seconds": 0.05713868187740445,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13364300000000018,
+          "forward_seconds": 0.05276231374591589,
+          "total_seconds": 0.05536230094730854,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.26225524999999994,
+          "forward_seconds": 0.07136947242543101,
+          "total_seconds": 0.07385502802208066,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13228904200000002,
+          "forward_seconds": 0.052294100634753704,
+          "total_seconds": 0.05414077406749129,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13470537500000024,
+          "forward_seconds": 0.052240001037716866,
+          "total_seconds": 0.054099971894174814,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.23356733299999988,
+          "forward_seconds": 0.08618817618116736,
+          "total_seconds": 0.08808218780905008,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1307805420000001,
+          "forward_seconds": 0.05324484733864665,
+          "total_seconds": 0.054835607297718525,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17240024999999992,
+          "forward_seconds": 0.09421237604692578,
+          "total_seconds": 0.09560502506792545,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.22190391600000048,
+          "forward_seconds": 0.09485222119838,
+          "total_seconds": 0.0963854999281466,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17714454099999966,
+          "forward_seconds": 0.09593913797289133,
+          "total_seconds": 0.09849165380001068,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1711717909999999,
+          "forward_seconds": 0.09095926582813263,
+          "total_seconds": 0.09333704132586718,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1726765419999996,
+          "forward_seconds": 0.08893309393897653,
+          "total_seconds": 0.09127220883965492,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13695437500000018,
+          "forward_seconds": 0.05317149683833122,
+          "total_seconds": 0.05480471672490239,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13063783399999984,
+          "forward_seconds": 0.05313162598758936,
+          "total_seconds": 0.05460029514506459,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13317250000000058,
+          "forward_seconds": 0.05480987811461091,
+          "total_seconds": 0.0561867649666965,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.2994328750000008,
+          "forward_seconds": 0.053268648218363523,
+          "total_seconds": 0.05508319800719619,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1434000409999996,
+          "forward_seconds": 0.053461357951164246,
+          "total_seconds": 0.055357859935611486,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.20580770800000003,
+          "forward_seconds": 0.09407566487789154,
+          "total_seconds": 0.0963152190670371,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1311727919999992,
+          "forward_seconds": 0.05327331693843007,
+          "total_seconds": 0.05519237881526351,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13408508399999874,
+          "forward_seconds": 0.053598379250615835,
+          "total_seconds": 0.055784232914447784,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13970008399999934,
+          "forward_seconds": 0.06077209394425154,
+          "total_seconds": 0.0627549672499299,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.177811041,
+          "forward_seconds": 0.05313753616064787,
+          "total_seconds": 0.05496462807059288,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14865237499999928,
+          "forward_seconds": 0.0709269791841507,
+          "total_seconds": 0.07288724230602384,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13245645800000005,
+          "forward_seconds": 0.053254426922649145,
+          "total_seconds": 0.05562737211585045,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.18465279199999962,
+          "forward_seconds": 0.05331005807965994,
+          "total_seconds": 0.05527031980454922,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1323324579999987,
+          "forward_seconds": 0.053440527990460396,
+          "total_seconds": 0.05513350898399949,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1323301249999993,
+          "forward_seconds": 0.05341998906806111,
+          "total_seconds": 0.05538880079984665,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13105699999999842,
+          "forward_seconds": 0.05317231686785817,
+          "total_seconds": 0.05498328898102045,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13395433400000023,
+          "forward_seconds": 0.05472702672705054,
+          "total_seconds": 0.0568879097700119,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5634729580000002,
+          "forward_seconds": 0.0880863880738616,
+          "total_seconds": 0.09025846235454082,
+          "input_tokens": 116,
+          "choice": "weather"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "name": "short_fresh_connection",
+        "count": 20,
+        "concurrency": 1,
+        "status_counts": {
+          "200": 20
+        },
+        "elapsed_seconds": 5.232860750000002,
+        "successful_requests_per_second": 3.8220011874002173,
+        "input_tokens": [
+          116
+        ],
+        "choices": {
+          "weather": 20
+        },
+        "http_seconds": {
+          "p50": 0.23008779200000085,
+          "p95": 0.3999383329999997,
+          "max": 0.4667848330000002
+        },
+        "forward_seconds": {
+          "p50": 0.05455194506794214,
+          "p95": 0.0995727009139955,
+          "max": 0.09993224311619997
+        },
+        "total_seconds": {
+          "p50": 0.05635109590366483,
+          "p95": 0.10186324501410127,
+          "max": 0.10205121617764235
+        }
+      },
+      "samples": [
+        {
+          "status": 200,
+          "http_seconds": 0.4667848330000002,
+          "forward_seconds": 0.0764455241151154,
+          "total_seconds": 0.07824102509766817,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.3373059999999999,
+          "forward_seconds": 0.0531152761541307,
+          "total_seconds": 0.05504488805308938,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.3999383329999997,
+          "forward_seconds": 0.06354543194174767,
+          "total_seconds": 0.06553144520148635,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.28937587500000106,
+          "forward_seconds": 0.05455194506794214,
+          "total_seconds": 0.05635109590366483,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.24535879100000102,
+          "forward_seconds": 0.06143822893500328,
+          "total_seconds": 0.0634010317735374,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.26306424999999933,
+          "forward_seconds": 0.0530837862752378,
+          "total_seconds": 0.055231899954378605,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17639754200000013,
+          "forward_seconds": 0.05321503710001707,
+          "total_seconds": 0.05513564916327596,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.18498750000000008,
+          "forward_seconds": 0.05318965716287494,
+          "total_seconds": 0.05522740911692381,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.179157,
+          "forward_seconds": 0.05321783712133765,
+          "total_seconds": 0.05514128878712654,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.2314557500000003,
+          "forward_seconds": 0.09993224311619997,
+          "total_seconds": 0.10205121617764235,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.2272708330000004,
+          "forward_seconds": 0.053300507832318544,
+          "total_seconds": 0.05530806025490165,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.19362033400000023,
+          "forward_seconds": 0.0680654407478869,
+          "total_seconds": 0.0701530845835805,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17880925000000047,
+          "forward_seconds": 0.05328421667218208,
+          "total_seconds": 0.05516505986452103,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.280301957999999,
+          "forward_seconds": 0.05326137784868479,
+          "total_seconds": 0.055468141566962004,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.23008779200000085,
+          "forward_seconds": 0.09441600786522031,
+          "total_seconds": 0.09670156193897128,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.28106133300000025,
+          "forward_seconds": 0.07110173115506768,
+          "total_seconds": 0.07322511309757829,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.19142108299999983,
+          "forward_seconds": 0.07108951034024358,
+          "total_seconds": 0.07293958077207208,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.21599320800000044,
+          "forward_seconds": 0.0995727009139955,
+          "total_seconds": 0.10186324501410127,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.24415991699999928,
+          "forward_seconds": 0.05214812094345689,
+          "total_seconds": 0.054170063231140375,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.22052879199999964,
+          "forward_seconds": 0.09457432897761464,
+          "total_seconds": 0.09690458327531815,
+          "input_tokens": 116,
+          "choice": "weather"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "name": "medium_keepalive",
+        "count": 30,
+        "concurrency": 1,
+        "status_counts": {
+          "200": 30
+        },
+        "elapsed_seconds": 5.540018457999999,
+        "successful_requests_per_second": 5.415144412863616,
+        "input_tokens": [
+          676
+        ],
+        "choices": {
+          "weather": 30
+        },
+        "http_seconds": {
+          "p50": 0.17121283299999845,
+          "p95": 0.2466542909999987,
+          "max": 0.3619950000000003
+        },
+        "forward_seconds": {
+          "p50": 0.08387468103319407,
+          "p95": 0.11028687795624137,
+          "max": 0.12029075203463435
+        },
+        "total_seconds": {
+          "p50": 0.08946094708517194,
+          "p95": 0.11533027002587914,
+          "max": 0.12869643466547132
+        }
+      },
+      "samples": [
+        {
+          "status": 200,
+          "http_seconds": 0.2466542909999987,
+          "forward_seconds": 0.12029075203463435,
+          "total_seconds": 0.12869643466547132,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.23051641700000047,
+          "forward_seconds": 0.10401269933208823,
+          "total_seconds": 0.1090346509590745,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16287495799999974,
+          "forward_seconds": 0.08270110422745347,
+          "total_seconds": 0.08742853440344334,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.3619950000000003,
+          "forward_seconds": 0.0829221960157156,
+          "total_seconds": 0.08808349724858999,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16273391700000062,
+          "forward_seconds": 0.08272523386403918,
+          "total_seconds": 0.08773901592940092,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.18975249999999733,
+          "forward_seconds": 0.11028687795624137,
+          "total_seconds": 0.11533027002587914,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17460604200000063,
+          "forward_seconds": 0.08316423604264855,
+          "total_seconds": 0.08796709682792425,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1643631670000012,
+          "forward_seconds": 0.08274125400930643,
+          "total_seconds": 0.08799003669992089,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.164321790999999,
+          "forward_seconds": 0.08285998366773129,
+          "total_seconds": 0.08778914576396346,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.19377791600000194,
+          "forward_seconds": 0.10272602085024118,
+          "total_seconds": 0.10768274078145623,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1633578340000028,
+          "forward_seconds": 0.08272709418088198,
+          "total_seconds": 0.08761767484247684,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16204954200000188,
+          "forward_seconds": 0.08279960416257381,
+          "total_seconds": 0.08751673484221101,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.19857270900000046,
+          "forward_seconds": 0.08303828490898013,
+          "total_seconds": 0.08853889117017388,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1767547080000007,
+          "forward_seconds": 0.09704367397353053,
+          "total_seconds": 0.10203135618939996,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16726720800000194,
+          "forward_seconds": 0.0871695620007813,
+          "total_seconds": 0.09211334399878979,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.18040524999999974,
+          "forward_seconds": 0.0828820038586855,
+          "total_seconds": 0.08792394725605845,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17848395900000114,
+          "forward_seconds": 0.09735520742833614,
+          "total_seconds": 0.1024064994417131,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17292937499999894,
+          "forward_seconds": 0.09341726079583168,
+          "total_seconds": 0.09864929504692554,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1722725830000016,
+          "forward_seconds": 0.08833120856434107,
+          "total_seconds": 0.09371717320755124,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17121283299999845,
+          "forward_seconds": 0.08895421400666237,
+          "total_seconds": 0.09461628878489137,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.166889458,
+          "forward_seconds": 0.0851388992741704,
+          "total_seconds": 0.09040418174117804,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.18692579200000026,
+          "forward_seconds": 0.09055414283648133,
+          "total_seconds": 0.09587560687214136,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16467208299999925,
+          "forward_seconds": 0.08465346693992615,
+          "total_seconds": 0.08927930472418666,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16404324999999886,
+          "forward_seconds": 0.08371069002896547,
+          "total_seconds": 0.08926198491826653,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.19319254100000194,
+          "forward_seconds": 0.10555847873911262,
+          "total_seconds": 0.11128735495731235,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16438474999999997,
+          "forward_seconds": 0.08317044610157609,
+          "total_seconds": 0.08868177095428109,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16337379199999802,
+          "forward_seconds": 0.0833145878277719,
+          "total_seconds": 0.08845748985186219,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.20057100000000005,
+          "forward_seconds": 0.08430114388465881,
+          "total_seconds": 0.08990621892735362,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16534066699999883,
+          "forward_seconds": 0.08384580118581653,
+          "total_seconds": 0.08958964794874191,
+          "input_tokens": 676,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.16505345899999924,
+          "forward_seconds": 0.08387468103319407,
+          "total_seconds": 0.08946094708517194,
+          "input_tokens": 676,
+          "choice": "weather"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "name": "long_keepalive",
+        "count": 30,
+        "concurrency": 1,
+        "status_counts": {
+          "200": 30
+        },
+        "elapsed_seconds": 14.945500999999997,
+        "successful_requests_per_second": 2.0072930308592536,
+        "input_tokens": [
+          2496
+        ],
+        "choices": {
+          "weather": 30
+        },
+        "http_seconds": {
+          "p50": 0.5059386659999987,
+          "p95": 0.6144612909999978,
+          "max": 0.6254853750000002
+        },
+        "forward_seconds": {
+          "p50": 0.28873467817902565,
+          "p95": 0.29798468574881554,
+          "max": 0.29977883817628026
+        },
+        "total_seconds": {
+          "p50": 0.3034472418949008,
+          "p95": 0.3154752580448985,
+          "max": 0.3167366050183773
+        }
+      },
+      "samples": [
+        {
+          "status": 200,
+          "http_seconds": 0.44899549999999877,
+          "forward_seconds": 0.29977883817628026,
+          "total_seconds": 0.3154752580448985,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5095825420000004,
+          "forward_seconds": 0.28858022717759013,
+          "total_seconds": 0.3037620331160724,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4433664999999998,
+          "forward_seconds": 0.28844748716801405,
+          "total_seconds": 0.3034472418949008,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4451103750000023,
+          "forward_seconds": 0.2887176191434264,
+          "total_seconds": 0.3048802809789777,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4428057079999981,
+          "forward_seconds": 0.28838363476097584,
+          "total_seconds": 0.3032174091786146,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5224661250000011,
+          "forward_seconds": 0.288575507234782,
+          "total_seconds": 0.30291911913082004,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.543974875,
+          "forward_seconds": 0.288378135766834,
+          "total_seconds": 0.30290985899046063,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5048415419999976,
+          "forward_seconds": 0.2883591861464083,
+          "total_seconds": 0.3028507479466498,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.6254853750000002,
+          "forward_seconds": 0.2882194151170552,
+          "total_seconds": 0.3027814272791147,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4433830419999971,
+          "forward_seconds": 0.2883853758685291,
+          "total_seconds": 0.3027893379330635,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5060358340000022,
+          "forward_seconds": 0.2886776579543948,
+          "total_seconds": 0.30268043698742986,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.583747374999998,
+          "forward_seconds": 0.2895353939384222,
+          "total_seconds": 0.30651696119457483,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.46606125000000276,
+          "forward_seconds": 0.28890150925144553,
+          "total_seconds": 0.30599490692839026,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5634087079999972,
+          "forward_seconds": 0.292596273124218,
+          "total_seconds": 0.3099204320460558,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5059386659999987,
+          "forward_seconds": 0.28882238920778036,
+          "total_seconds": 0.3031501998193562,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5119775000000004,
+          "forward_seconds": 0.28925224067643285,
+          "total_seconds": 0.30306761898100376,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5116378329999982,
+          "forward_seconds": 0.2887477781623602,
+          "total_seconds": 0.3030989393591881,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.6144612909999978,
+          "forward_seconds": 0.28891032887622714,
+          "total_seconds": 0.3040726250037551,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.44591354199999955,
+          "forward_seconds": 0.288458907045424,
+          "total_seconds": 0.30456102872267365,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.512437000000002,
+          "forward_seconds": 0.2886962378397584,
+          "total_seconds": 0.3033318710513413,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5240693330000035,
+          "forward_seconds": 0.2885443172417581,
+          "total_seconds": 0.30336089013144374,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5232553339999981,
+          "forward_seconds": 0.28907086001709104,
+          "total_seconds": 0.3045656378380954,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.6005416670000017,
+          "forward_seconds": 0.28876577876508236,
+          "total_seconds": 0.3037022827193141,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.45049291600000174,
+          "forward_seconds": 0.2884543868713081,
+          "total_seconds": 0.3031431301496923,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.43164704099999796,
+          "forward_seconds": 0.28873467817902565,
+          "total_seconds": 0.30393187515437603,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5177625000000035,
+          "forward_seconds": 0.288839268963784,
+          "total_seconds": 0.3033260512165725,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4312834579999958,
+          "forward_seconds": 0.28886145912110806,
+          "total_seconds": 0.303460611961782,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.44533724999999436,
+          "forward_seconds": 0.29798468574881554,
+          "total_seconds": 0.3167366050183773,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4345513749999981,
+          "forward_seconds": 0.2891829409636557,
+          "total_seconds": 0.30563069600611925,
+          "input_tokens": 2496,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4343745420000005,
+          "forward_seconds": 0.2891706111840904,
+          "total_seconds": 0.30544632440432906,
+          "input_tokens": 2496,
+          "choice": "weather"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "name": "short_concurrency_2",
+        "count": 40,
+        "concurrency": 2,
+        "status_counts": {
+          "429": 19,
+          "200": 21
+        },
+        "elapsed_seconds": 4.0151095830000045,
+        "successful_requests_per_second": 5.23024330118264,
+        "input_tokens": [
+          116
+        ],
+        "choices": {
+          "weather": 21
+        },
+        "http_seconds": {
+          "p50": 0.15391179199999527,
+          "p95": 0.4281065000000055,
+          "max": 0.5665959170000008
+        },
+        "forward_seconds": {
+          "p50": 0.0655904053710401,
+          "p95": 0.11510725878179073,
+          "max": 0.12988983280956745
+        },
+        "total_seconds": {
+          "p50": 0.06744018709287047,
+          "p95": 0.11674304027110338,
+          "max": 0.13319370383396745
+        }
+      },
+      "samples": [
+        {
+          "status": 429,
+          "http_seconds": 0.30521704200000244,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.4281065000000055,
+          "forward_seconds": 0.05604040529578924,
+          "total_seconds": 0.05781186604872346,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08030533300000542,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.15252804200000014,
+          "forward_seconds": 0.07604351174086332,
+          "total_seconds": 0.07800418371334672,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07873066700000209,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1683870420000062,
+          "forward_seconds": 0.08976771775633097,
+          "total_seconds": 0.0917686210013926,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07668775000000494,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.20188558299999926,
+          "forward_seconds": 0.0901585309766233,
+          "total_seconds": 0.09244566597044468,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.0799805000000049,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14014325000000127,
+          "forward_seconds": 0.06309304013848305,
+          "total_seconds": 0.06485115084797144,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07816387500000133,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14340179100000228,
+          "forward_seconds": 0.06520554283633828,
+          "total_seconds": 0.06677337316796184,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14283916700000532,
+          "forward_seconds": 0.06088162586092949,
+          "total_seconds": 0.06247331527993083,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5665959170000008,
+          "forward_seconds": 0.06129410909488797,
+          "total_seconds": 0.06292930897325277,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08099595799999548,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1957709579999971,
+          "forward_seconds": 0.06605279771611094,
+          "total_seconds": 0.0678978399373591,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07558475000000442,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14135962500000687,
+          "forward_seconds": 0.0655904053710401,
+          "total_seconds": 0.06744018709287047,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08111245799999978,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1878413330000015,
+          "forward_seconds": 0.11103697260841727,
+          "total_seconds": 0.11301385518163443,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.0812630409999997,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1928567090000044,
+          "forward_seconds": 0.11510725878179073,
+          "total_seconds": 0.11674304027110338,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07833924999999908,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.20685945799999672,
+          "forward_seconds": 0.12988983280956745,
+          "total_seconds": 0.13319370383396745,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08108758299999863,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13965920799999765,
+          "forward_seconds": 0.0610938067547977,
+          "total_seconds": 0.06310627004131675,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.0765762090000024,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.17691654200000073,
+          "forward_seconds": 0.08198231924325228,
+          "total_seconds": 0.08348298817873001,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07644479200000376,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1368575410000048,
+          "forward_seconds": 0.059118594974279404,
+          "total_seconds": 0.0615976401604712,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07924316699999423,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.15391179199999527,
+          "forward_seconds": 0.07875151885673404,
+          "total_seconds": 0.0804500998929143,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07877608300000105,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.22958229099999983,
+          "forward_seconds": 0.08376586996018887,
+          "total_seconds": 0.0853743813931942,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07923304100000195,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14147129199999853,
+          "forward_seconds": 0.0644850586540997,
+          "total_seconds": 0.06610819790512323,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07853383399999814,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1386237500000007,
+          "forward_seconds": 0.06294764764606953,
+          "total_seconds": 0.06499208090826869,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07831133399999857,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13753020800000115,
+          "forward_seconds": 0.06095041614025831,
+          "total_seconds": 0.06250353576615453,
+          "input_tokens": 116,
+          "choice": "weather"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "name": "short_concurrency_4",
+        "count": 40,
+        "concurrency": 4,
+        "status_counts": {
+          "429": 27,
+          "200": 13
+        },
+        "elapsed_seconds": 2.495287250000004,
+        "successful_requests_per_second": 5.209821033630488,
+        "input_tokens": [
+          116
+        ],
+        "choices": {
+          "weather": 13
+        },
+        "http_seconds": {
+          "p50": 0.15812320799999924,
+          "p95": 0.5430530829999967,
+          "max": 0.5430530829999967
+        },
+        "forward_seconds": {
+          "p50": 0.06419961573556066,
+          "p95": 0.07246910920366645,
+          "max": 0.07246910920366645
+        },
+        "total_seconds": {
+          "p50": 0.06866119522601366,
+          "p95": 0.07420779997482896,
+          "max": 0.07420779997482896
+        }
+      },
+      "samples": [
+        {
+          "status": 429,
+          "http_seconds": 0.21051429199999916,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.38242741599999874,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.2566989580000012,
+          "forward_seconds": 0.06010338105261326,
+          "total_seconds": 0.0616741213016212,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.442780833999997,
+          "forward_seconds": 0.05883343191817403,
+          "total_seconds": 0.06042990228161216,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1563352089999981,
+          "forward_seconds": 0.06323562003672123,
+          "total_seconds": 0.06508909212425351,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.1558171659999985,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.5430530829999967,
+          "forward_seconds": 0.06250403635203838,
+          "total_seconds": 0.06406273506581783,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.15626341699999813,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.13564204200000063,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.13563245800000345,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.15812320799999924,
+          "forward_seconds": 0.07029488496482372,
+          "total_seconds": 0.07286297203972936,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.13660212500000313,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.31222558300000003,
+          "forward_seconds": 0.061220766976475716,
+          "total_seconds": 0.06278498703613877,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08231649999999746,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.0834710410000028,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.15228395799999817,
+          "forward_seconds": 0.07246910920366645,
+          "total_seconds": 0.07420779997482896,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.078807458,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08459679200000636,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07871575000000064,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.18598337499999928,
+          "forward_seconds": 0.06903381692245603,
+          "total_seconds": 0.07068633800372481,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07877574999999837,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07577195900000078,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07948249999999746,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14375933300000554,
+          "forward_seconds": 0.06936045968905091,
+          "total_seconds": 0.07101949024945498,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07661483400000435,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08153033300000345,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.12064745800000054,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.1497821669999979,
+          "forward_seconds": 0.06419961573556066,
+          "total_seconds": 0.07208137586712837,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07965770799999916,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.0805802920000005,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08246350000000291,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.23155437500000176,
+          "forward_seconds": 0.06891135592013597,
+          "total_seconds": 0.07069957815110683,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07849800000000329,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08177183400000132,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08118779100000495,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.14731049999999613,
+          "forward_seconds": 0.06654332112520933,
+          "total_seconds": 0.06866119522601366,
+          "input_tokens": 116,
+          "choice": "weather"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.12783375000000063,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.08104395800000219,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 429,
+          "http_seconds": 0.07814249999999845,
+          "detail": "GPU busy; retry later"
+        },
+        {
+          "status": 200,
+          "http_seconds": 0.13927316599999529,
+          "forward_seconds": 0.06223273416981101,
+          "total_seconds": 0.06391374487429857,
+          "input_tokens": 116,
+          "choice": "weather"
+        }
+      ]
+    }
+  ]
+}

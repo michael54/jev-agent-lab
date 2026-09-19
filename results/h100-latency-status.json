@@ -1,0 +1,14 @@
+{
+  "pod_id": "n1zzy7wgga9l0v",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "region": "US-MO-1",
+  "started_at": "2026-09-19T00:47:34.129Z",
+  "status": "stopped_before_10_minutes",
+  "benchmark_completed": false,
+  "inference_samples": 0,
+  "reason": "Pinned PyTorch 2.10 CUDA 12.8 installation did not finish within time budget. Model weights downloaded. No valid H100 latency comparison is available.",
+  "gpu_usd_per_hour": 3.49,
+  "stopped_confirmed_at": "2026-09-19T00:56:30.711Z",
+  "elapsed_seconds_upper_bound": 536.582,
+  "estimated_gpu_cost_usd": 0.52
+}
