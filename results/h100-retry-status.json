@@ -1,0 +1,14 @@
+{
+  "pod_id": "9hrzm168da5rxp",
+  "status": "EXITED",
+  "started_at": "2026-09-19T02:40:04.172Z",
+  "stopped_confirmed_at": "2026-09-19T02:43:38.819Z",
+  "elapsed_seconds_upper_bound": 214.647,
+  "estimated_gpu_cost_usd": 0.208,
+  "requests": 216,
+  "completed": true,
+  "packages_match_4090": true,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "driver": "580.126.09",
+  "storage": "container-local; no persistent volume"
+}

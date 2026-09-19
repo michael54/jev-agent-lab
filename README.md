@@ -131,3 +131,13 @@ python3 deploy/smoke.py \
 
 Reports are create-only. The six handcrafted English/Chinese cases are smoke
 tests, not an unbiased benchmark of real agent performance.
+
+## H100 versus 4090 latency experiment
+
+See [the measured comparison](results/latency-report.md) and raw samples in
+`results/latency-4090.json` / `results/latency-h100.json`. The successful H100
+retry completed within 3m35s and is stopped. Identical Python packages were used.
+Median forward time for 116 / 676 / 2496 input tokens was 54 / 84 / 289 ms on
+4090 versus 46 / 55 / 148 ms on H100. Network regions and test times differ.
+The reference implementation still lacks optimized recurrent kernels; these
+measurements do not represent fully optimized GPU serving performance.
