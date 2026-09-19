@@ -1,0 +1,4 @@
+.local/
+vendor/
+__pycache__/
+.venv/

@@ -1,0 +1,19 @@
+{
+  "tests": {
+    "upstream_pytest_passed": 15,
+    "published_claim_checks": 69,
+    "smoke_correct": 6,
+    "smoke_count": 6,
+    "unauthenticated_status": 401,
+    "duplicate_options_status": 422
+  },
+  "timing": {
+    "http_median_seconds": 0.3170198955000001,
+    "http_min_seconds": 0.18408791700000005,
+    "http_max_seconds": 0.5165419579999999,
+    "forward_median_seconds": 0.05565199162811041
+  },
+  "scope": "Six short handcrafted examples; not a general accuracy benchmark or load test.",
+  "restart_verified": true,
+  "post_restart_smoke": 6
+}

@@ -1,0 +1,226 @@
+{
+  "base_url": "https://t97hrors0wpvpb-8000.proxy.runpod.net",
+  "correct": 6,
+  "count": 6,
+  "auth_rejection": 401,
+  "duplicate_rejection": 422,
+  "note": "Handcrafted smoke cases, not an unbiased quality benchmark.",
+  "results": [
+    {
+      "expected": "weather",
+      "correct": true,
+      "http_seconds": 0.417608791,
+      "id": "route-en",
+      "option_ids": [
+        "weather",
+        "calculator",
+        "files"
+      ],
+      "probabilities": [
+        0.9999202662859248,
+        5.829001568081878e-05,
+        2.1443698394534222e-05
+      ],
+      "option_logits": [
+        27.375,
+        17.625,
+        16.625
+      ],
+      "input_tokens": 115,
+      "forward_seconds": 0.06319242483004928,
+      "total_seconds": 0.06800931598991156,
+      "prompt_sha256": "a96f367f0e92ee4da7a3bf87c166cc16eabbc027f2ddef02b29c91c4e1f71493",
+      "prompt_version": "direct-options-v1",
+      "model": {
+        "source": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "dtype": "bfloat16",
+        "torch_version": "2.10.0+cu128",
+        "transformers_version": "5.17.0"
+      },
+      "readout": "native full-vocabulary last-position logits restricted to declared answer slots",
+      "probability_status": "conditional option score; uncalibrated as decision confidence",
+      "choice": "weather",
+      "source_commit": "b9cb32537e78be65f19abfcb1de8fc504b627d84"
+    },
+    {
+      "expected": "weather",
+      "correct": true,
+      "http_seconds": 0.18756783299999996,
+      "id": "route-zh",
+      "option_ids": [
+        "weather",
+        "calculator",
+        "files"
+      ],
+      "probabilities": [
+        0.9999567756231843,
+        2.7535259103884296e-05,
+        1.568911771190906e-05
+      ],
+      "option_logits": [
+        26.75,
+        16.25,
+        15.6875
+      ],
+      "input_tokens": 113,
+      "forward_seconds": 0.05295558925718069,
+      "total_seconds": 0.05500049190595746,
+      "prompt_sha256": "a6dff40e4ec0c350d0062380b2d1e8259d7ea872eaaa0d05254ff1c034a8322c",
+      "prompt_version": "direct-options-v1",
+      "model": {
+        "source": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "dtype": "bfloat16",
+        "torch_version": "2.10.0+cu128",
+        "transformers_version": "5.17.0"
+      },
+      "readout": "native full-vocabulary last-position logits restricted to declared answer slots",
+      "probability_status": "conditional option score; uncalibrated as decision confidence",
+      "choice": "weather",
+      "source_commit": "b9cb32537e78be65f19abfcb1de8fc504b627d84"
+    },
+    {
+      "expected": "retry",
+      "correct": true,
+      "http_seconds": 0.5165419579999999,
+      "id": "retry-en",
+      "option_ids": [
+        "retry",
+        "done",
+        "delete"
+      ],
+      "probabilities": [
+        0.9999678108800863,
+        2.4300049036958052e-05,
+        7.889070876777322e-06
+      ],
+      "option_logits": [
+        28.125,
+        17.5,
+        16.375
+      ],
+      "input_tokens": 128,
+      "forward_seconds": 0.05834839399904013,
+      "total_seconds": 0.060289687011390924,
+      "prompt_sha256": "970ae4b49cef3f87332dc20263313764d6b8f2c9855815a121cf9455b1b93a4e",
+      "prompt_version": "direct-options-v1",
+      "model": {
+        "source": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "dtype": "bfloat16",
+        "torch_version": "2.10.0+cu128",
+        "transformers_version": "5.17.0"
+      },
+      "readout": "native full-vocabulary last-position logits restricted to declared answer slots",
+      "probability_status": "conditional option score; uncalibrated as decision confidence",
+      "choice": "retry",
+      "source_commit": "b9cb32537e78be65f19abfcb1de8fc504b627d84"
+    },
+    {
+      "expected": "retry",
+      "correct": true,
+      "http_seconds": 0.475170458,
+      "id": "retry-zh",
+      "option_ids": [
+        "retry",
+        "done",
+        "delete"
+      ],
+      "probabilities": [
+        0.9999567550445294,
+        3.5355971816860155e-05,
+        7.888983653699377e-06
+      ],
+      "option_logits": [
+        26.75,
+        16.5,
+        15.0
+      ],
+      "input_tokens": 124,
+      "forward_seconds": 0.052920578978955746,
+      "total_seconds": 0.05494788195937872,
+      "prompt_sha256": "74727b7ca17ed56fe2b3f58d6181256c8ee314710a212962175db9257025d238",
+      "prompt_version": "direct-options-v1",
+      "model": {
+        "source": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "dtype": "bfloat16",
+        "torch_version": "2.10.0+cu128",
+        "transformers_version": "5.17.0"
+      },
+      "readout": "native full-vocabulary last-position logits restricted to declared answer slots",
+      "probability_status": "conditional option score; uncalibrated as decision confidence",
+      "choice": "retry",
+      "source_commit": "b9cb32537e78be65f19abfcb1de8fc504b627d84"
+    },
+    {
+      "expected": "no",
+      "correct": true,
+      "http_seconds": 0.18408791700000005,
+      "id": "evidence-en",
+      "option_ids": [
+        "yes",
+        "no"
+      ],
+      "probabilities": [
+        0.00015843621910252594,
+        0.9998415637808975
+      ],
+      "option_logits": [
+        19.125,
+        27.875
+      ],
+      "input_tokens": 114,
+      "forward_seconds": 0.05286098783835769,
+      "total_seconds": 0.05443180911242962,
+      "prompt_sha256": "f6e03b9c74e7e481d3546cbca69c6d67a323a0fe6658680bca596b152b8d4fce",
+      "prompt_version": "direct-options-v1",
+      "model": {
+        "source": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "dtype": "bfloat16",
+        "torch_version": "2.10.0+cu128",
+        "transformers_version": "5.17.0"
+      },
+      "readout": "native full-vocabulary last-position logits restricted to declared answer slots",
+      "probability_status": "conditional option score; uncalibrated as decision confidence",
+      "choice": "no",
+      "source_commit": "b9cb32537e78be65f19abfcb1de8fc504b627d84"
+    },
+    {
+      "expected": "no",
+      "correct": true,
+      "http_seconds": 0.21643100000000026,
+      "id": "evidence-zh",
+      "option_ids": [
+        "yes",
+        "no"
+      ],
+      "probabilities": [
+        0.00015843621910252594,
+        0.9998415637808975
+      ],
+      "option_logits": [
+        18.0,
+        26.75
+      ],
+      "input_tokens": 110,
+      "forward_seconds": 0.09171838825568557,
+      "total_seconds": 0.09349758876487613,
+      "prompt_sha256": "8657e40e126194c00f7cc01b8a09801cfe98eb55121e41351bdff6260458e489",
+      "prompt_version": "direct-options-v1",
+      "model": {
+        "source": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "dtype": "bfloat16",
+        "torch_version": "2.10.0+cu128",
+        "transformers_version": "5.17.0"
+      },
+      "readout": "native full-vocabulary last-position logits restricted to declared answer slots",
+      "probability_status": "conditional option score; uncalibrated as decision confidence",
+      "choice": "no",
+      "source_commit": "b9cb32537e78be65f19abfcb1de8fc504b627d84"
+    }
+  ]
+}
